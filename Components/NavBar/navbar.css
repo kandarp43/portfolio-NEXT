@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #131313;
+    color: #fff;
+    font-size: 20px;
+  }
+  .nav-title {
+    font-size: 30px;
+    color: lawngreen;
+  }
+  .nav-routes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sub-routes {
+    padding: 10px;
+  }
+  
