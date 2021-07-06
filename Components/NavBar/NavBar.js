@@ -1,4 +1,10 @@
+import { useRouter } from 'next/router'
+import { useState } from 'react'
+
 function NavBar() {
+  const router = useRouter()
+  const [active, setActive] = useState('')
+  console.log(router.pathname)
   return (
     <div className='nav'>
       <div className='nav-title'>kandarp</div>
