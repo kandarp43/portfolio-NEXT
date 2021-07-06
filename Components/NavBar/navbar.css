@@ -1,21 +1,26 @@
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 40px;
-    background: #131313;
-    color: #fff;
-    font-size: 20px;
-  }
-  .nav-title {
-    font-size: 30px;
-    color: lawngreen;
-  }
-  .nav-routes {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .sub-routes {
-    padding: 10px;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 40px;
+  background: #131313;
+  color: #fff;
+  font-size: 20px;
+}
+.nav-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: lawngreen;
+}
+.nav-routes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sub-routes {
+  padding: 10px;
+  cursor: pointer;
+}
+.sub-routes-active {
+  color: rgb(253, 114, 253);
+  padding: 10px;
+}
