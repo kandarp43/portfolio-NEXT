@@ -15,7 +15,9 @@ function NavBar() {
       <div className='nav-title'>Kandarp</div>
       <div className='nav-routes'>
         <div className={isActive('/')}>
-          <Link href='/'> Home</Link>
+          <Link href='/' draggable='false'>
+            Home
+          </Link>
         </div>
         <div className={isActive('/projects')}>
           <Link href='/projects'> Projects</Link>

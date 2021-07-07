@@ -4,14 +4,7 @@
   justify-content: space-between;
   padding: 15px 40px;
   height: 10vh;
-  background: linear-gradient(
-    90deg,
-    #060749,
-    #58ee96,
-    #8d2272,
-    #eacc74,
-    #a30749
-  );
+  background: linear-gradient(90deg, #1b1a1b,#a3f749);
   color: #fff;
   font-size: 20px;
 }

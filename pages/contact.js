@@ -1,5 +1,14 @@
+import Head from 'next/head'
+
 function contact() {
-  return <div>contact</div>
+  return (
+    <>
+      <Head>
+        <title>Contact</title>
+      </Head>
+      contact
+    </>
+  )
 }
 
 export default contact
