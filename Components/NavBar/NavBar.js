@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 function NavBar() {
   const router = useRouter()
@@ -13,10 +14,18 @@ function NavBar() {
     <div className='nav'>
       <div className='nav-title'>Kandarp</div>
       <div className='nav-routes'>
-        <div className={isActive('/')}>Home</div>
-        <div className={isActive('/projects')}>Projects</div>
-        <div className={isActive('/about')}>about me</div>
-        <div className={isActive('/contact')}>contact me </div>
+        <div className={isActive('/')}>
+          <Link href='/'> Home</Link>
+        </div>
+        <div className={isActive('/projects')}>
+          <Link href='/projects'> Projects</Link>
+        </div>
+        <div className={isActive('/about')}>
+          <Link href='/about'>about me</Link>
+        </div>
+        <div className={isActive('/contact')}>
+          <Link href='/contact'>contact me</Link>
+        </div>
       </div>
     </div>
   )
