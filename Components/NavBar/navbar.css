@@ -2,8 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 40px;
-  background: #131313;
+  padding: 15px 40px;
+  height: 10vh;
+  background: linear-gradient(
+    90deg,
+    #060749,
+    #58ee96,
+    #8d2272,
+    #eacc74,
+    #a30749
+  );
   color: #fff;
   font-size: 20px;
 }
@@ -17,10 +25,21 @@
   flex-wrap: wrap;
 }
 .sub-routes {
-  padding: 10px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+  padding-bottom: 5px;
+  margin: 10px;
+  transition: all 0.1s ease-in-out;
+}
+.sub-routes:hover {
   cursor: pointer;
 }
 .sub-routes-active {
-  color: rgb(253, 114, 253);
-  padding: 10px;
+  margin: 10px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid rgb(236, 68, 68);
+}
+
+.home {
+  height: 90vh;
+  background: #c0c0c0;
 }

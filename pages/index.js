@@ -3,11 +3,5 @@ import Image from 'next/image'
 import NavBar from '../Components/NavBar/NavBar'
 
 export default function Home() {
-  return (
-    <div>
-      <div>
-        <NavBar />
-      </div>
-    </div>
-  )
+  return <div className='home'></div>
 }
